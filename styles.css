@@ -1,0 +1,74 @@
+body {
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Figtree, sans-serif;
+}
+.box {
+    background-color: hsl(0, 0%, 100%);
+    width: 250px;
+    height: 340px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.img {
+    width: 90%;
+    margin: 5% 5%;
+}
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+.box1 {
+    background-color: hsl(47, 88%, 63%);
+    width: 70px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 12px;
+}
+.box2 {
+    margin-top: 10px;
+    margin-left: 5%;
+    font-size: 12px;
+}
+.box3 {
+    margin-top: 10px;
+    margin-left: 5%;
+    font-size: 18px;
+    font-weight: 800;
+    color:hsl(47, 88%, 63%) ;
+}
+.box4 {
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 10%;
+    font-size: 12px;
+    font-weight: 500;
+    color:  hsl(0, 0%, 50%);
+}
+.box5 {
+display: flex;
+flex-direction: row;
+gap: 5px;
+height: 22px;
+margin: 12px auto 12px 5%;
+font-size: 12px;
+align-items: center;
+font-weight: 800;
+}
+
+#avatar-icon {
+    height: 100%;
+    width: auto;
+}
